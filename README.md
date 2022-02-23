@@ -1,4 +1,4 @@
-# lesson18 - Warmup
+# lesson18 - Using a linked list
 
 - name: TODO
 - email: TODO
