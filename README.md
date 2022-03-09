@@ -21,6 +21,11 @@ a Linked List.
 ```java
 private String name;
 private String qty;
+/**
+ * Takes an iterator and constructs Item objects from each call to next().
+ * @param items The items to parse
+ * @return A List of constructed items.
+ */
 public static LinkedList<Item> parseItems(Iterator<String> items);
 ```
 
