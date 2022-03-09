@@ -5,11 +5,10 @@ public class App {
     public static void main (String[] args) {
         Scanner scnr = new Scanner(System.in);
   
-        // TODO: Declare a LinkedList called shoppingList of type ListItem
-        
-        // TODO: Scan inputs (items) using the static method on ListItem
+        // TODO: Use the Item.parseItems static method
        
-        // TODO: Print the shoppingList 
+        // TODO: Loop through the resulting Linked List and print out each item using the
+        // toString method of each item!
       
      }
 }
