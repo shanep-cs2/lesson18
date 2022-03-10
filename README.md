@@ -62,3 +62,15 @@ the Iterator interface! So we can now just pass a scanner to the **parseItems** 
 takes an Iterator! That is really cool and is a good example of polymorphism in action!
 
 **Hint:** You will need to override the toString() method in the Items class!
+
+## Task 5 - Final check
+
+Your Item class must have the following completed:
+
+- getters/setters for all private data
+- completed parseItems
+- Override equals
+- Override hashcode
+- Override toString
+
+Your App class must read from standard in and parse in all the items and print them back out.
