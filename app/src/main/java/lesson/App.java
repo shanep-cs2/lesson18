@@ -11,9 +11,11 @@ public class App {
     public static void main(String[] args) {
         //Do not modify the main method!
         Scanner scanner = new Scanner(System.in);
+        scanner.useDelimiter(System.lineSeparator());
         List<Item> items = MyItem.parseItems(scanner);
         for(Item i : items){
             System.out.println(i);
         }
+    }
     }
 }
