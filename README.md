@@ -20,8 +20,8 @@ interface](https://docs.oracle.com/javase/10/docs/api/java/util/List.html).
 
 ## Task 1 - Implement MyItem
 
-In the starter code you will find a file named **MyItem.java**. Your task is to complete the
-implementation of this class. it can represent an item on a purchase order. The **MyItem** class
+In the starter code you will find a file named **MyItem.java** that can represent an item on a
+purchase order. Your task is to complete the implementation of this class.  The **MyItem** class
 must implement the Item interface and must override the following methods:
 
 - public boolean equals(Object obj)
@@ -43,20 +43,42 @@ generate a hashcode.
     }
 ```
 
+MyItem includes a static method that you will need to implement. The `parsItems` method (shown
+below) takes an iterator that will return a string every time you call `next()`.
 
-## Task 2 - Write Unit tests
+```java
+    /**
+     * Takes an iterator and constructs Item objects from each call to next().
+     * 
+     * @param items The stings that need to be parsed into Items
+     * @return A List of constructed items.
+     */
+    public static List<Item> parseItems(Iterator<String> items) {
+        return null;
+    }
+```
 
-Now that we have our class all completed out lets write some unit tests. We want to make sure that if
-we pass in an iterator that returns a string with each call to next we can properly construct an
-item. The parseItems needs to create a new item for each call to `next()`. The iterator will return 
-Strings in the format shown below. You will need to split the string on the **space** character
-and use the first part as the name of the item and the second part as the quantity.
+You will need to reference
+[Iterator<E>](https://docs.oracle.com/javase/10/docs/api/java/util/Iterator.html) interface for
+details on how to work with an iterator. The two functions that you will be using are the
+`hasNext()` and `next()` methods. Each call to `next()` will return a string in the format shown
+below. You will need to split the string on the space character and create a new item with the
+resulting data.
+
+For example, given the string `steel 4lbs` you would create a new MyItem object with the name
+property set to **steel** and the qty property set to **4lbs**.
 
 ```txt
 steel 4lbs
 bolts 23lbs
-aluminium 2units
+aluminum 2units
 ```
+
+## Task 2 - Write Unit tests
+
+Now that we have our class all completed out lets write some unit tests to make sure everything
+works correctly!
+
 
 ## Task 3 - Manual testing
 
