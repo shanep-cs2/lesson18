@@ -1,14 +1,19 @@
 package lesson;
 
+import java.util.List;
+import java.util.Scanner;
+
+/**
+ * DO NOT MODIFY
+ */
 public class App {
 
-    public static void main (String[] args) {
-        Scanner scnr = new Scanner(System.in);
-  
-        // TODO: Use the Item.parseItems static method
-       
-        // TODO: Loop through the resulting Linked List and print out each item using the
-        // toString method of each item!
-      
-     }
+    public static void main(String[] args) {
+        //Do not modify the main method!
+        Scanner scanner = new Scanner(System.in);
+        List<Item> items = MyItem.parseItems(scanner);
+        for(Item i : items){
+            System.out.println(i);
+        }
+    }
 }
