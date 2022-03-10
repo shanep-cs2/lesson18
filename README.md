@@ -9,7 +9,7 @@ interface](https://docs.oracle.com/javase/10/docs/api/java/util/List.html).
 
 ## Videos
 
-- [Lab Walkthrough]()
+- [Lab Overview](https://youtu.be/uBTK5m1vzlo)
 
 ## Objectives
 
