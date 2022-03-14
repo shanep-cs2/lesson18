@@ -3,7 +3,7 @@
 ## Overview
 
 In this lab we are going to write a small app that will demonstrate how different collections all
-use a [ListIterator](https://docs.oracle.com/javase/10/docs/api/java/util/ListIterator.html) and how
+use an [Iterator](https://docs.oracle.com/javase/10/docs/api/java/util/Iterator.html) and how
 we can pass around a[ List
 interface](https://docs.oracle.com/javase/10/docs/api/java/util/List.html).
 
@@ -13,9 +13,9 @@ interface](https://docs.oracle.com/javase/10/docs/api/java/util/List.html).
 
 ## Objectives
 
-- Work with the List Iterators from the Java API
+- Work with the Iterators from the Java API
 - Use the List interface
-- Write a simple class that uses a list iterator from different classes
+- Write a method that takes an Iterator as an argument
 - Write your own equals and hash code method
 
 ## Task 1 - Implement MyItem
