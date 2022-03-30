@@ -7,9 +7,10 @@ use an [Iterator](https://docs.oracle.com/javase/10/docs/api/java/util/Iterator.
 we can pass around a[ List
 interface](https://docs.oracle.com/javase/10/docs/api/java/util/List.html).
 
-## Videos
+## Important Links
 
 - [Lab Overview](https://youtu.be/uBTK5m1vzlo)
+- [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
 
 ## Objectives
 
