@@ -11,6 +11,7 @@ interface](https://docs.oracle.com/javase/10/docs/api/java/util/List.html).
 
 - [Lab Overview](https://youtu.be/uBTK5m1vzlo)
 - [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
+- [Cloning and Submitting](https://shanep-cs2.github.io/docs/github.html)
 
 ## Objectives
 
